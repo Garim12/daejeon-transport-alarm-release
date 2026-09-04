@@ -1,0 +1,15 @@
+{
+    "schemaVersion":  1,
+    "versionCode":  50,
+    "versionName":  "50.0.0",
+    "publishedAt":  "2026-09-04T20:34:10.7990745+09:00",
+    "apkUrl":  "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
+    "sha256":  "f3de5d568ded013bdc894995e227ee443f68a40e09fd5df1ae7e16e2e322e810",
+    "mandatory":  false,
+    "changes":  [
+                    "공동배차 비교와 노선 색상 정렬 개선",
+                    "시스템·사용자 알람음과 진동 패턴 설정 추가",
+                    "앱 내부 안전 업데이트 기능 추가",
+                    "알람 알림 정리와 안정성 개선"
+                ]
+}
