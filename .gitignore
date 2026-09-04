@@ -1,0 +1,3 @@
+# APK는 Git 커밋이 아니라 GitHub Release 자산으로만 배포합니다.
+*.apk
+
