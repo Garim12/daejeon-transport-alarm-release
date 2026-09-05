@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "versionCode": 52,
-  "versionName": "52.0.0",
-  "publishedAt": "2026-09-05T06:11:38.9846666+09:00",
+  "versionCode": 53,
+  "versionName": "53.0.0",
+  "publishedAt": "2026-09-06T04:51:38.4856817+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "643e03ac443e14b7a56771bf2a62a52ba75a6dbd2387f71d10462181b6295af9",
+  "sha256": "ee9b6ef6bf2dd44d11f7a3a5745ce359ffeda23d2ea40e3e873069836b761460",
   "mandatory": false,
   "changes": [
-    "메인 화면에서 어플 업데이트를 먼저, 배차 업데이트를 다음 순서로 자동 안내",
-    "배차 데이터 복원 후 동일 SHA-256 최신 버전 재적용 지원",
-    "배차 업데이트 HIGH 알림 채널과 버전당 1회 Heads-up 적용",
-    "Android 14 이상 앱 업데이트 시 전체화면 알람 권한 상태 보존"
+    "일반·테스트 알람의 오버레이와 상단 알림 중복 개선",
+    "통화 중 HIGH 알림 및 잠금화면 전체화면 안전 경로 유지",
+    "오늘·내일 예약 운행보드 카드 통합 및 좌우 스와이프",
+    "알림 시작 운행·알림 종료 운행 문구 간소화"
   ]
 }
