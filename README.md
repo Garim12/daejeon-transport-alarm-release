@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk">
-    <img alt="📱 어플 다운로드" src="https://img.shields.io/badge/%F0%9F%93%B1_%EC%96%B4%ED%94%8C_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%B5%9C%EC%8B%A0_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white">
+    <img alt="📱 앱 다운로드" src="https://img.shields.io/badge/%F0%9F%93%B1_%EC%95%B1_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EC%B5%9C%EC%8B%A0_APK-2ea44f?style=for-the-badge&logo=android&logoColor=white">
   </a>
 </p>
 
@@ -15,24 +15,24 @@
 <!-- APP_RELEASE_STATUS:START -->
 ## 최신 버전
 
-- 버전: v55 (`55.0.0`)
+- 버전: v56 (`56.0.0`)
 - 게시일: 2026-09-08
 - 설치 파일: `daejeon-transport-alarm.apk`
-- SHA-256: `332c6fca4ef3c384b586142072bbbbc7f039bcd495630b30f46d8b18220b4150`
+- SHA-256: `adfc4162f4d9414a2f88e06b1fba27b3035f176101e7bb9d7d6472b77e08414c`
 
 ### 주요 변경 사항
 
-- Galaxy 기기에서 보안 위험 자동 차단·알 수 없는 앱 설치·Play Protect 안내를 단계별로 표시
-- APK 다운로드·SHA-256/패키지/버전/서명 검증과 Android 설치 시작을 두 단계로 분리
-- 업데이트 완료 후 Auto Blocker를 잠시 껐다면 다시 켜도록 첫 실행에서 한 번 안내
-- GitHub README와 Release 본문에 공식 APK 확인 및 Galaxy 설치 가이드를 추가
+- 통화 중 커스텀 알람 화면이 보이면 중복 HIGH 알림을 숨기고, 화면이 사라지면 안전 알림을 자동 복구
+- 메인 화면에서 내부 공휴일 계산 문구를 제거하고 현재 적용 중인 시간표 이름을 직접 표시
+- 앱 업데이트와 배차 데이터 업데이트 화면의 상태 카드·버전·변경내역·버튼 디자인 통일
+- Galaxy 설치 가이드를 8단계로 보완하고 앱 업데이트 용어를 일관되게 정리
 <!-- APP_RELEASE_STATUS:END -->
 
 ## Galaxy 설치 / 업데이트 방법
 
 > Galaxy의 **보안 위험 자동 차단**이 켜져 있으면 GitHub에서 내려받은 APK 설치 및 업데이트가 차단될 수 있습니다. 설치가 필요한 경우에만 잠시 끄고, 설치 후 다시 켜는 것을 권장합니다. Samsung 및 One UI 버전에 따라 메뉴 이름과 위치가 조금 다를 수 있습니다.
 
-### 처음 설치하는 경우
+## Galaxy 처음 설치
 
 1. 이 저장소의 **공식 GitHub Release**에서 최신 `daejeon-transport-alarm.apk`를 다운로드합니다.
 2. 설치가 차단되면 **설정 → 보안 및 개인정보 보호 → 보안 위험 자동 차단**으로 이동해 설치하는 동안만 잠시 끕니다.
@@ -44,10 +44,10 @@
 
 아무 APK나 경고를 무시하고 설치하지 마세요. 반드시 이 저장소의 공식 Release인지, 앱 이름과 파일명이 올바른지 확인한 경우에만 진행하세요.
 
-### 이미 앱이 설치된 경우
+## 기존 앱 업데이트
 
 1. 대전교통 배차 알람을 실행합니다.
-2. **설정 → 어플 업데이트**로 이동합니다.
+2. **설정 → 앱 업데이트**로 이동합니다.
 3. **업데이트 다운로드**를 눌러 APK 다운로드와 검증을 완료합니다.
 4. 앱에 표시되는 **Galaxy 설치 전 확인** 안내를 읽습니다.
 5. 필요하면 보안 위험 자동 차단과 이 출처의 앱 설치 허용을 각각 확인합니다.
@@ -58,7 +58,7 @@
 
 앱 내부 업데이트를 사용할 수 있으므로 기존 사용자는 GitHub에서 APK를 매번 직접 받을 필요가 없습니다.
 
-## Google Play Protect가 표시될 때
+## Google Play Protect 안내
 
 GitHub에서 직접 배포하는 APK는 Google Play Protect의 추가 확인 대상이 될 수 있으며 문구는 Android, One UI 및 Play Protect 버전에 따라 달라질 수 있습니다.
 

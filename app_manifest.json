@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "versionCode": 55,
-  "versionName": "55.0.0",
-  "publishedAt": "2026-09-08T10:06:16.9398178+09:00",
+  "versionCode": 56,
+  "versionName": "56.0.0",
+  "publishedAt": "2026-09-08T23:24:07.6659446+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "332c6fca4ef3c384b586142072bbbbc7f039bcd495630b30f46d8b18220b4150",
+  "sha256": "adfc4162f4d9414a2f88e06b1fba27b3035f176101e7bb9d7d6472b77e08414c",
   "mandatory": false,
   "changes": [
-    "Galaxy 기기에서 보안 위험 자동 차단·알 수 없는 앱 설치·Play Protect 안내를 단계별로 표시",
-    "APK 다운로드·SHA-256/패키지/버전/서명 검증과 Android 설치 시작을 두 단계로 분리",
-    "업데이트 완료 후 Auto Blocker를 잠시 껐다면 다시 켜도록 첫 실행에서 한 번 안내",
-    "GitHub README와 Release 본문에 공식 APK 확인 및 Galaxy 설치 가이드를 추가"
+    "통화 중 커스텀 알람 화면이 보이면 중복 HIGH 알림을 숨기고, 화면이 사라지면 안전 알림을 자동 복구",
+    "메인 화면에서 내부 공휴일 계산 문구를 제거하고 현재 적용 중인 시간표 이름을 직접 표시",
+    "앱 업데이트와 배차 데이터 업데이트 화면의 상태 카드·버전·변경내역·버튼 디자인 통일",
+    "Galaxy 설치 가이드를 8단계로 보완하고 앱 업데이트 용어를 일관되게 정리"
   ]
 }
