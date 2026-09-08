@@ -1,15 +1,14 @@
 {
   "schemaVersion": 1,
-  "versionCode": 56,
-  "versionName": "56.0.0",
-  "publishedAt": "2026-09-08T23:24:07.6659446+09:00",
+  "versionCode": 57,
+  "versionName": "57.0.0",
+  "publishedAt": "2026-09-09T00:02:14.2089672+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "adfc4162f4d9414a2f88e06b1fba27b3035f176101e7bb9d7d6472b77e08414c",
+  "sha256": "214e1dec6362e783c157447b7cab3e35f3cdc2d8be1faa8e691a37d0da74262a",
   "mandatory": false,
   "changes": [
-    "통화 중 커스텀 알람 화면이 보이면 중복 HIGH 알림을 숨기고, 화면이 사라지면 안전 알림을 자동 복구",
-    "메인 화면에서 내부 공휴일 계산 문구를 제거하고 현재 적용 중인 시간표 이름을 직접 표시",
-    "앱 업데이트와 배차 데이터 업데이트 화면의 상태 카드·버전·변경내역·버튼 디자인 통일",
-    "Galaxy 설치 가이드를 8단계로 보완하고 앱 업데이트 용어를 일관되게 정리"
+    "메인 화면의 근무 날짜와 실제 적용 시간표를 달력 아이콘이 있는 하나의 상태 행으로 통합",
+    "평일·토요일·휴일·방학감차·특별배차 표시를 날짜와 함께 자연스럽게 줄바꿈",
+    "알람 소리와 진동 설명에서 내부 구현 용어를 제거하고 같은 사용자 문체로 통일"
   ]
 }
