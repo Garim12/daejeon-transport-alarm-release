@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "versionCode": 57,
-  "versionName": "57.0.0",
-  "publishedAt": "2026-09-09T00:02:14.2089672+09:00",
+  "versionCode": 58,
+  "versionName": "58.0.0",
+  "publishedAt": "2026-09-13T00:40:18.3897511+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "214e1dec6362e783c157447b7cab3e35f3cdc2d8be1faa8e691a37d0da74262a",
+  "sha256": "666d14a51bc44bc88a749333a59a5cb281b3608e1652c899f2cc6c008623f655",
   "mandatory": false,
   "changes": [
-    "메인 화면의 근무 날짜와 실제 적용 시간표를 달력 아이콘이 있는 하나의 상태 행으로 통합",
-    "평일·토요일·휴일·방학감차·특별배차 표시를 날짜와 함께 자연스럽게 줄바꿈",
-    "알람 소리와 진동 설명에서 내부 구현 용어를 제거하고 같은 사용자 문체로 통일"
+    "통화 중 화면 ON·잠금 해제 상태에서 실제로 표시된 custom overlay를 최우선 사용",
+    "오버레이 attach·visible 확인과 200ms 간격 2회 제한 재시도 후 실패 시에만 HIGH fallback 게시",
+    "오버레이 표시 중 watchdog의 HIGH 재게시를 차단하고 표시 소실·화면 OFF·잠금 시 안전 알림 즉시 복구"
   ]
 }
