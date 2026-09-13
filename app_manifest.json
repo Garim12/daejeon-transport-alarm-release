@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
-  "versionCode": 58,
-  "versionName": "58.0.0",
-  "publishedAt": "2026-09-13T00:40:18.3897511+09:00",
+  "versionCode": 59,
+  "versionName": "59.0.0",
+  "publishedAt": "2026-09-14T06:01:04.1411099+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "666d14a51bc44bc88a749333a59a5cb281b3608e1652c899f2cc6c008623f655",
+  "sha256": "1b6d1864fbdaba7662ce272a9fca3f534b4457e3ff4362f5faf12921e44eaac2",
   "mandatory": false,
   "changes": [
-    "통화 중 화면 ON·잠금 해제 상태에서 실제로 표시된 custom overlay를 최우선 사용",
-    "오버레이 attach·visible 확인과 200ms 간격 2회 제한 재시도 후 실패 시에만 HIGH fallback 게시",
-    "오버레이 표시 중 watchdog의 HIGH 재게시를 차단하고 표시 소실·화면 OFF·잠금 시 안전 알림 즉시 복구"
+    "통화 중 오버레이의 실제 부착·표시 증거를 여러 시점에서 확인하고 짧은 표시 흔들림을 유예 처리",
+    "오버레이 표시 소실 시 세션당 한 번만 제한 복구하고 실패하면 HIGH 안전 알림으로 자동 전환",
+    "앱 시작 시 앱 업데이트를 먼저 확인하고 배차 업데이트 상태·안전한 오류 안내를 메인 화면에 유지",
+    "예약 알람 교체를 원자적으로 처리하고 알림 ID 충돌·오래된 기록 누적을 방지",
+    "배차 데이터의 미래 적용 공백·노선 종료일·방학감차 연속 기간 검증을 보강"
   ]
 }
