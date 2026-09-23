@@ -1,16 +1,18 @@
 {
-  "schemaVersion": 1,
-  "versionCode": 60,
-  "versionName": "60.0.0",
-  "publishedAt": "2026-09-14T19:49:02.3622724+09:00",
-  "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "158ec081d3c5f1184d2c48bf6c03c891d681dd92e3bf071bb0b07c9c0efa377f",
-  "mandatory": false,
-  "changes": [
-    "차번 선택 화면과 운행보드에 교대·가스충전·노선 공통 안내를 운행 참고사항으로 표시",
-    "교대와 가스충전 정보를 실제 차번·기준 운행·시점 또는 시간표 공통 시간대에 맞춰 안내",
-    "과거 배차 JSON과 저장된 예약 운행보드가 새 참고정보 필드 없이도 계속 호환되도록 유지",
-    "특별배차 참고정보를 해당 적용 날짜에만 표시하고 잘못된 차번·운행 참조는 적용 전에 차단",
-    "운행 참고정보는 표시 전용으로 분리하여 기존 출발 알람·소리·진동·오버레이 동작을 변경하지 않음"
-  ]
+    "schemaVersion":  1,
+    "versionCode":  88,
+    "versionName":  "2.0.0",
+    "publishedAt":  "2026-09-23T12:10:03.9816226+09:00",
+    "apkUrl":  "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
+    "sha256":  "9c04de3595a761bee69b0e847adba4eccfacd34bf0262600124cb839de672120",
+    "mandatory":  false,
+    "changes":  [
+                    "앱 전체 화면을 새 디자인으로 바꾸고 하단 탭(홈·배차일정·근무표·알림내역·설정)으로 정리했습니다.",
+                    "근무표 탭을 추가했습니다: 근무 패턴 설정, 날짜별 근무 수정, 급여일·공휴일 표시, 날짜 메모, 그날 뛴 노선 표시.",
+                    "운행 기록과 알림 내역 화면, 라이트/다크 테마, 특별배차 수동 선택을 추가했습니다.",
+                    "잠금 상태에서 앱 화면이 보이던 보안 문제를 고쳤습니다. 잠금화면에는 알람 화면만 표시됩니다.",
+                    "잠금화면 알람에서도 \"1분 뒤 다시 알림\"을 쓸 수 있습니다.",
+                    "추석 특별배차처럼 여러 날에 걸친 특별배차가 시작일과 종료일까지 모든 날짜에 적용되도록 고쳤습니다.",
+                    "울리는 알람 알림을 하나로 합치고, 권한 설정에 배터리 최적화 예외를 추가했습니다."
+                ]
 }
