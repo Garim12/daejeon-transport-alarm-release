@@ -1,18 +1,12 @@
 {
   "schemaVersion": 1,
-  "versionCode": 102,
-  "versionName": "2.4.2",
-  "publishedAt": "2026-10-07T18:14:10+09:00",
+  "versionCode": 103,
+  "versionName": "2.4.3",
+  "publishedAt": "2026-10-07T19:22:54+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "1b8585195e2a3d9ea50d80243b4d704d6eca5eabc2ffc7c8a39026fee5b87aca",
+  "sha256": "6eefbcd4e9efc0794880aa524778adb904d28dd9c1b4df93dff9d2400c05f0ce",
   "mandatory": false,
   "changes": [
-    "앱을 열지 않은 상태에서도 배차 변경 신호를 받아 자동 예약합니다. 자동 예약과 알람 권한이 켜져 있어야 하며, 기기·통신 상태에 따라 반영이 늦어질 수 있습니다.",
-    "버그 FIX",
-    "근무 예약 버튼의 물방울 전환과 노선·순번·운행보드의 화면 전환을 추가했습니다.",
-    "오버레이와 전체화면 알람에 등장·해제 애니메이션과 움직이는 배경 빛을 추가했습니다. 배경 빛은 6초 주기로 천천히 밝아졌다 어두워지며, 움직임 줄이기 설정을 따릅니다.",
-    "알림내역에서 알림을 누르면 관련 화면으로 바로 이동합니다. 교대 차량 도착 알림은 실시간 위치로 연결됩니다.",
-    "기점 출발만 알림을 선택할 수 있습니다. 선택한 근무 구간의 첫 운행은 출발지와 관계없이 알립니다.",
-    "알림 시점 설정을 바로 기억하고, 메모·설정을 저장하지 않은 채 닫을 때 확인하며 저장 실패를 안내합니다."
+    "저장 관련 오류 수정"
   ]
 }
