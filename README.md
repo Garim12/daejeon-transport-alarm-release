@@ -15,10 +15,10 @@
 <!-- APP_RELEASE_STATUS:START -->
 ## 최신 버전
 
-- 버전: v2.4.4 (`2.4.4`, 내부 버전 `104`)
+- 버전: v2.4.5 (`2.4.5`, 내부 버전 `105`)
 - 게시일: 2026-10-13
 - 설치 파일: `daejeon-transport-alarm.apk`
-- SHA-256: `4bb4a898075bcb719c249e10aa0f03c4ffb98221dff1559c06c386a35650382b`
+- SHA-256: `aed4c9303d720cac411d7511c2aed529ee0270f16ab017087e7452e790bec2a2`
 
 ### 주요 변경 사항
 

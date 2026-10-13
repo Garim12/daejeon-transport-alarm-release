@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "versionCode": 104,
-  "versionName": "2.4.4",
-  "publishedAt": "2026-10-13T11:53:16+09:00",
+  "versionCode": 105,
+  "versionName": "2.4.5",
+  "publishedAt": "2026-10-13T12:24:02+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "4bb4a898075bcb719c249e10aa0f03c4ffb98221dff1559c06c386a35650382b",
-  "apkSizeBytes": 94702384,
+  "sha256": "aed4c9303d720cac411d7511c2aed529ee0270f16ab017087e7452e790bec2a2",
+  "apkSizeBytes": 94702652,
   "mandatory": false,
   "changes": [
     "알림 시점 고르기를 새로 바꾸고 자동배차 화면에서도 고를 수 있게 했습니다.",
