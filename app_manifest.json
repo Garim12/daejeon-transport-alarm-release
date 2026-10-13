@@ -1,12 +1,15 @@
 {
   "schemaVersion": 1,
-  "versionCode": 103,
-  "versionName": "2.4.3",
-  "publishedAt": "2026-10-07T19:22:54+09:00",
+  "versionCode": 104,
+  "versionName": "2.4.4",
+  "publishedAt": "2026-10-13T11:53:16+09:00",
   "apkUrl": "https://github.com/Garim12/daejeon-transport-alarm-release/releases/latest/download/daejeon-transport-alarm.apk",
-  "sha256": "6eefbcd4e9efc0794880aa524778adb904d28dd9c1b4df93dff9d2400c05f0ce",
+  "sha256": "4bb4a898075bcb719c249e10aa0f03c4ffb98221dff1559c06c386a35650382b",
+  "apkSizeBytes": 94702384,
   "mandatory": false,
   "changes": [
-    "저장 관련 오류 수정"
+    "알림 시점 고르기를 새로 바꾸고 자동배차 화면에서도 고를 수 있게 했습니다.",
+    "운행보드 다음 운행과 홈 '오늘 운행'을 승차권 모양으로 보여 줍니다.",
+    "상단 알림을 새로 꾸미고 어플 최적화 작업을 하여 더 안정적으로 다듬었습니다."
   ]
 }
